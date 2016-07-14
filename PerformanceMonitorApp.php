@@ -22,7 +22,7 @@ class PerformanceMonitorApp extends AbstractApp {
 	 * @return PerformanceMonitorApp
 	 */
 	public function register_listeners(){
-		$event_manager = $this->exface()->event_manager();
+		$event_manager = $this->get_workbench()->event_manager();
 		$event_manager->add_listener('#.Action.Perform.Before', array($this->monitor, 'start_action'));
 		$event_manager->add_listener('#.Action.Perform.After', array($this->monitor, 'stop_action'));
 		return $this;
