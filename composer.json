@@ -1,5 +1,5 @@
 {
-	"name" : "ExFace/PerformanceMonitor",
+	"name" : "exface/PerformanceMonitor",
 	"description" : "Performance monitor app for the ExFace business web application plattform",
 	"type" : "library",
 	"license" : "GPL-3.0+",
