@@ -15,5 +15,13 @@
 	"require" : {
 		"exface/core" : "~0.1",
 		"symfony/StopWatch": "~3.1.2"
-	}
+	},
+    "autoload": {
+        "psr-4": { "exface\\PerformanceMonitor\\": "" },
+        "exclude-from-classmap": [
+            "/Config/",
+            "/Translations/",
+            "/Model/"
+        ]
+    }
 }
